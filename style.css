@@ -95,7 +95,7 @@ h2 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 40px;
-  margin-bottom: 14px;
+  margin-bottom: 80px;
 }
 
 .strawberry > img {
@@ -130,7 +130,7 @@ h2 {
 
 .quote {
   display: flex;
-  margin: 150px 0px 150px 0px;
+  margin: 100px 0px 30px 0px;
 }
 
 .author {
@@ -140,11 +140,51 @@ h2 {
   font-weight: bold;
   color:#1F2937;
   font-size: 24px;
+  margin-bottom: 100px;
 }
 
 .quote-text {
   display: flex;
-  flex: 1;
+  max-width: 900px;
   flex-direction: column;
   margin: 0px 90px 0px 90px;
+}
+
+.container4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 100px 0;
+}
+
+.action-box-left > h3, .action-box-left > p {
+  padding: 0;
+  margin: 0;
+  max-width: none;
+  color: white;
+}
+
+.action-box {
+  display: flex;
+  width: 900px;
+  justify-content: space-around;
+  background:#3882f6;
+  border-radius: 6px;
+  padding: 50px 0 50px 0;
+}
+
+.action-box > button {
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#1F2937;
+  color: white;
+  padding: 30px 0 30px 0;
 }
